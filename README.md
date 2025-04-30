@@ -71,4 +71,5 @@ npm run dev
 
 ## 🎥 Demo
 
+[![Watch the demo](https://img.youtube.com/vi/mADZhz-XLF0/0.jpg)](https://youtu.be/mADZhz-XLF0)
 
