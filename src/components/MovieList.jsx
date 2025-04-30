@@ -3,7 +3,7 @@ import MovieCard from './MovieCard'
 
 function MovieList({movies}){
     if(!movies || movies.length===0) {
-        return <p>No Movies to Show </p>
+        return <p>No Results to Show </p>
     }
 
     return(
