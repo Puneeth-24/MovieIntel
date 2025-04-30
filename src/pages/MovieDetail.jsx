@@ -13,7 +13,7 @@ function MovieDetail(){
         async function fetchMovie (){
             const API_KEY=import.meta.env.VITE_OMDB_API_KEY;
             try{
-                const response = await axios(`http://www.omdbapi.com/?i=${id}&plot=full&apikey=${API_KEY}`);
+                const response = await axios(`https://www.omdbapi.com/?i=${id}&plot=full&apikey=${API_KEY}`);
                 setMovie(response.data);
             }
             catch(err){
