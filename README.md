@@ -1,12 +1,74 @@
-# React + Vite
+# 🎬 MovieIntel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MovieIntel is a React-based movie search application that allows users to find movies using the OMDb API. Users can search for movies by title, view a list of search results, and click on any movie to view detailed information including plot, cast, and IMDb rating.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔍 Search for movies using the OMDb API
+- 📝 View detailed movie information including director, writer, genre, plot, and IMDb rating
+- 📄 Fallback poster images for movies without posters
+- ⚡ Clear search results with a single click
+- 📱 Responsive design for mobile and desktop
+- 🌐 Client-side routing using React Router
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── components/
+│   ├── MovieCard.jsx
+│   ├── MovieList.jsx
+│   └── SearchBar.jsx
+├── pages/
+│   ├── Home.jsx
+│   └── MovieDetail.jsx
+├── images/
+│   └── default-movie.jpg
+├── style/
+│   └── App.css
+├── App.jsx
+├── Layout.jsx
+└── main.jsx
+```
+
+## ⚙️ Setup Instructions
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/your-username/movieintel.git
+cd movieintel
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+3. **Get an OMDb API key**
+
+- Visit OMDb API
+- Sign up for a free API key
+
+4. **Configure environment variables**
+
+Create a .env file in the root and add:
+```env
+VITE_OMDB_API_KEY=your_api_key_here
+```
+
+5.Run the development server
+
+```bash
+npm run dev
+```
+
+## 🛠 Built With
+- React
+- React Router
+- Axios
+- Vite
+- OMDb API
+
+## 🎥 Demo
+
+
